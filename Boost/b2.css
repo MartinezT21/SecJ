@@ -1,0 +1,711 @@
+
+#BoxMain
+{
+background-color: #CF5656;
+width: 200px;
+height: 60px;
+border-radius: 10px;
+border: solid black 1.5px;
+display: flex;
+margin-left: 20px;
+margin-top: 200px;
+box-shadow: 4px 4px black;
+}
+
+#CcAR,#BoxMain{
+    margin-left: 50px;
+}
+
+#BoxText{
+    color: #FEFEFE;
+    font-size: 30px;
+    padding-bottom: 0;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+#arrow{
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+
+
+
+h1{
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 48px;
+   margin-left: 20px;
+   font-weight: 1000;
+}
+
+h2{
+    
+    padding-top: 10px;
+    margin-left: 20px;
+    font-size: 44px;
+}
+
+h3{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+*{
+    font-family: 'Inria Sans', sans-serif;
+}
+section{
+    background-color: white;
+}
+a{
+    list-style: none;
+    font-style: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+video{
+    size: cover;
+}
+#Space1{
+    height: 10%;
+    top: 10%;
+    background-color: #8C5638;
+    font-size:8px;
+    color:#8C5638;
+}
+
+#Space2{
+    height: 10%;
+    top: 10%;
+    background-color: #8C5638;
+    font-size:8px;
+    color:#8C5638;
+}
+
+nav{
+    background-color: #A76850;
+}
+
+body{
+    background-color: #CAB19B;
+}
+
+#logo{
+    margin-left: 30px;
+}
+
+aside{
+    justify-content: center;
+    background-size: cover;
+    background-image: url(../Boost/IMG2/usanew1.svg);
+ width: 1920px;
+   height: 500px;
+   margin-top: 0;
+
+}
+
+article{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 300px;
+    background-image: url(../Boost/IMG2/PBG.svg);
+    background-size: cover;
+}
+
+li{
+    font-style: none;
+    list-style: none;
+}
+
+#boxes{
+background-color: #A76850;
+height: 250px;
+width: 250px;
+border-radius: 10px;
+margin-top: 100px;
+font-weight: 1000;
+}
+
+#TIT1{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+footer{
+        background-color: #A76850;
+        display: flex;
+        flex-direction: row;
+       justify-content: space-between;
+       padding-bottom: 10px;
+}
+
+#Social{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#TEXTFOT{
+    display: block;
+    text-align: end;
+    margin-left: 10px;
+}
+
+#MainSec{
+    display: flex;
+    
+    font-weight: 1000;
+  
+}
+
+#TITLE1{
+    margin-left: 30px;
+}
+
+#Secondary{
+    gap:300px;
+    margin-left: 200px;
+}
+
+#iconsSeconds{
+    width: 100px;
+}
+
+#TextsS{
+    width: 300px;
+    font-size: 28px;
+}
+
+#Texts{
+    width: 300px;
+    font-size: 28px;
+}
+
+#Text1{
+    width: 300px;
+    font-size: 24px;
+}
+
+#Text2{
+    font-size: 24px;
+    width: 300px;
+}
+
+#BoxesP1{
+    background-color: #CF5656;
+    border-radius: 20px;
+}
+
+#RedBox{
+    background-color: #CF5656;
+    width: 280px;
+    height: 60px;
+    border-radius: 10px;
+    border: solid black 1.5px;
+    display: flex;
+    box-shadow: 4px 4px black;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#TextBus{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+
+#TxBus1{
+    font-size: 28px;
+    font-weight: 1000;
+
+}
+
+
+
+#TxBus2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 150px;
+width: 800px;
+}
+
+#cards{
+    display: flex;
+}
+
+.card-img-top{
+    width:284px;
+}
+
+#Car{
+    margin-left: 200px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    z-index: 1;
+}
+
+.card{
+margin: 0.5em;
+width: 250px;
+border: solid black 2px;
+}
+
+.card-body{
+    width: 250px;
+}
+
+.btn{
+    background-color: #CF5656;
+    border-radius: 10px;
+    border: solid black 1.5px;
+    box-shadow: 4px 4px black;
+}
+
+#truck{
+    width: 700px;
+    margin-left: 100px;
+}
+
+
+
+
+@media (max-width: 575.98px) {
+nav{
+    width: 1182px;
+}
+
+#Space1{
+    width: 1182px;
+}
+
+#Space2{
+    width: 1182px;
+}
+
+*{
+    max-width:1182px;
+}
+article{
+    height: 500px;
+    width: 1222px;
+}
+
+section{
+   background-color: white;
+}
+
+footer{
+width: 1250px;
+}
+
+#Car{
+    width: 1250px;
+    margin-left: 0;
+    font-size: 28px;
+}
+
+#Secondary{
+    gap: 30px;
+    margin-left: 120px;
+}
+
+.card-img-top{
+    width: 284px;
+}
+
+.btn{
+    font-size: 28px;
+}
+
+#car2{
+    display: none;
+}
+
+#controls{
+    display: none;
+}
+
+#car{
+    display: block;
+}
+
+#truck{
+    width: 400px;
+}
+#paris{
+    width: 400px;
+}
+#TxBus2{
+    font-size: 28px;
+    width: 500px;
+}
+section{
+    background-size: 1100px;
+}
+}
+
+
+
+@media (max-width: 992px) {
+
+    nav{
+        width: 1982px;
+    }
+    
+    #Space1{
+        width: 1182px;
+    }
+    
+    #Space2{
+        width: 1182px;
+    }
+    
+    *{
+        max-width:1182px;
+    }
+    article{
+        height: 500px;
+        width: 1222px;
+    }
+    
+    section{
+       background-color: white;
+    }
+    
+    footer{
+    width: 1250px;
+    }
+    
+    #Car{
+        width: 1250px;
+        margin-left: 0;
+        font-size: 28px;
+    }
+    
+    #Secondary{
+        gap: 30px;
+        margin-left: 120px;
+    }
+    
+    .card-img-top{
+        width: 284px;
+    }
+    
+    .btn{
+        font-size: 28px;
+    }
+    
+    #car2{
+        display: none;
+    }
+    
+    #controls{
+        display: none;
+    }
+    
+    #car{
+        display: block;
+    }
+    
+    #truck{
+        width: 400px;
+    }
+    #paris{
+        width: 400px;
+    }
+    #TxBus2{
+        font-size: 28px;
+        width: 500px;
+    }
+    section{
+        background-size: 1100px;
+    }
+    }
+
+    @media (min-width: 993px) {
+
+    
+#BoxMain
+{
+background-color: #CF5656;
+width: 200px;
+height: 60px;
+border-radius: 10px;
+border: solid black 1.5px;
+display: flex;
+margin-left: 20px;
+margin-top: 200px;
+box-shadow: 4px 4px black;
+}
+
+#CcAR,#BoxMain{
+    margin-left: 50px;
+}
+
+#BoxText{
+    color: #FEFEFE;
+    font-size: 30px;
+    padding-bottom: 0;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+#arrow{
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+
+
+
+h1{
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 48px;
+   margin-left: 20px;
+   font-weight: 1000;
+}
+
+h2{
+    
+    padding-top: 10px;
+    margin-left: 20px;
+    font-size: 44px;
+}
+
+h3{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+*{
+    font-family: 'Inria Sans', sans-serif;
+}
+section{
+    background-color: white;
+}
+a{
+    list-style: none;
+    font-style: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+video{
+    size: cover;
+}
+#Space1{
+    height: 10%;
+    top: 10%;
+    background-color: #8C5638;
+    font-size:8px;
+    color:#8C5638;
+}
+
+#Space2{
+    height: 10%;
+    top: 10%;
+    background-color: #8C5638;
+    font-size:8px;
+    color:#8C5638;
+}
+
+nav{
+    background-color: #A76850;
+}
+
+body{
+    background-color: #CAB19B;
+}
+
+#logo{
+    margin-left: 30px;
+}
+
+aside{
+    justify-content: center;
+    background-size: cover;
+    background-image: url(../Boost/IMG2/usanew1.svg);
+ width: 1920px;
+   height: 500px;
+   margin-top: 0;
+
+}
+
+article{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 300px;
+    background-image: url(../Boost/IMG2/PBG.svg);
+    background-size: cover;
+}
+
+li{
+    font-style: none;
+    list-style: none;
+}
+
+#boxes{
+background-color: #A76850;
+height: 250px;
+width: 250px;
+border-radius: 10px;
+margin-top: 100px;
+font-weight: 1000;
+}
+
+#TIT1{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+footer{
+        background-color: #A76850;
+        display: flex;
+        flex-direction: row;
+       justify-content: space-between;
+       padding-bottom: 10px;
+}
+
+#Social{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#TEXTFOT{
+    display: block;
+    text-align: end;
+    margin-left: 10px;
+}
+
+#MainSec{
+    display: flex;
+    
+    font-weight: 1000;
+  
+}
+
+#TITLE1{
+    margin-left: 30px;
+}
+
+#Secondary{
+    gap:300px;
+    margin-left: 200px;
+}
+
+#iconsSeconds{
+    width: 100px;
+}
+
+#TextsS{
+    width: 300px;
+    font-size: 28px;
+}
+
+#Texts{
+    width: 300px;
+    font-size: 28px;
+}
+
+#Text1{
+    width: 300px;
+    font-size: 24px;
+}
+
+#Text2{
+    font-size: 24px;
+    width: 300px;
+}
+
+#BoxesP1{
+    background-color: #CF5656;
+    border-radius: 20px;
+}
+
+#RedBox{
+    background-color: #CF5656;
+    width: 280px;
+    height: 60px;
+    border-radius: 10px;
+    border: solid black 1.5px;
+    display: flex;
+    box-shadow: 4px 4px black;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#TextBus{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+
+#TxBus1{
+    font-size: 28px;
+    font-weight: 1000;
+
+}
+
+
+
+#TxBus2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 150px;
+width: 800px;
+}
+
+#cards{
+    display: flex;
+}
+
+.card-img-top{
+    width:284px;
+}
+
+#Car{
+    margin-left: 200px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    z-index: 1;
+}
+
+.card{
+margin: 0.5em;
+width: 250px;
+border: solid black 2px;
+}
+
+.card-body{
+    width: 250px;
+}
+
+.btn{
+    background-color: #CF5656;
+    border-radius: 10px;
+    border: solid black 1.5px;
+    box-shadow: 4px 4px black;
+}
+
+#truck{
+    width: 700px;
+    margin-left: 100px;
+}
+
+}
